@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background:transparent ;
+}
+.nav-link{
+    font-weight: 500;
+}
+.img-fluid{
+    width: 400px;
+    /*padding-left: 50px;*/
+}
+
+.abt{
+    background: radial-gradient(rgb(248, 250, 248),rgb(144, 250, 162));
+}
+
+.products-season{
+    background: linear-gradient(150deg,rgb(144, 250, 162) 55%,rgb(248, 250, 248) 0% );
+}
+button{
+    align-items: center;
+    cursor: pointer;
+    background: rgb(84, 248, 84);
+    /*border-radius: 30% !important;*/
+    transition: background 0.8s;
+
+}
+
+button:hover{
+    background: coral;
+}
+
+.img-pr{
+    width: 200px;
+    height: 250px;
+    transition: transform 0.5s;
+}
+
+.img-pr:hover{
+    transform: translateY(-8px);
+}
+
+.testimonial{
+    margin: 20px;
+}
+.testimonial .test{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .test:hover{
+    transform:translateY(-10px);
+}
+
+.testimonial .test img{
+    width: 80px;
+    margin-top:20px ;
+    border-radius: 50%;
+}
+
+.fa.fa-star,.fa.fa-star-o,.fa.fa-star-half-o{
+    color: #45f002;
+}
+
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #45f002;
+}
+
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding: 80px;
+	position: relative;
+}
+
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg,#a3fa71 55%,#fff 0%);
+    z-index: -1;
+}
+
+
+.form-button button{
+	border-radius: 100px;
+	margin: 0 10px;
+	padding: 12px 35px;
+	outline: none;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+	background: #45f002;
+}
+
+.form-button button:hover{
+    background: coral;
+}
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #474746;
+	/*background: #00abff;*/
+	position: relative;
+}
+
+.footersection p{
+	color: #fff;
+}
+.footersection ul{
+    list-style-type: none;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	
+}
+
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+}
