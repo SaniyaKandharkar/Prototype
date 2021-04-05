@@ -1,0 +1,136 @@
+/* Saniya CSS*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background:transparent ;
+}
+.nav-link{
+    font-weight: 500;
+}
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}*/
+
+.abt{
+    background: rgb(197, 245, 197);
+}
+
+.img-fluid{
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+button{
+    align-items: center;
+    cursor: pointer;
+    background: rgb(1, 49, 1);
+    transition: background 0.8s;
+
+}
+
+button:hover{
+    background: #558b2f;
+}
+
+.pt-5{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.text-centre{
+    margin-top: 40px;
+}
+
+.team-members-box h2{
+    text-align: center;
+}
+
+.col{
+    margin-top: 25px;
+}
+
+.skills{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card-footer li{
+    display: inline;
+}
+
+.fa {  
+    width: 25px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto; 
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    color: #3B5998;
+  }
+
+  .fa-twitter {
+    color: #55ACEE;
+  }
+
+
+
+
+.footersection{
+	width: 100%;
+	height: auto;
+	padding: 70px 0 20px 0;
+	background: #474746;
+	/*background: #00abff;*/
+	position: relative;
+}
+
+.footersection p{
+	color: #fff;
+}
+.footersection ul{
+    list-style-type: none;
+}
+.footersection li a{
+	font-size: 0.9rem;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #fff;
+	text-transform: capitalize;
+	
+}
+
+.footersection h3{
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+}
