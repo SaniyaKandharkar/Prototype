@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/bootsrap.min.css">
+    <link rel="stylesheet" href="css/style.css" <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+
+
+    <title>Business Page</title>
+    <style>
+        .bgimg {
+
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            width: 100%;
+            height: 650px;
+        }
+
+        html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+        }
+
+        .navbar {
+            background: transparent;
+        }
+
+        .nav-link {
+            font-weight: 500;
+        }
+
+        li,
+        p,
+        a {
+            font-size: 1.6rem;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        h3 {
+            font-size: 3rem;
+        }
+
+        .row {
+            margin: 0;
+        }
+
+
+
+
+        .hero-text h1 {
+            font-size: 5.5rem;
+            line-height: 1.5;
+            text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+            letter-spacing: 1px;
+            color: #2f2f2f;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .hero-text h1:nth-child(2) {
+            font-weight: bold;
+            color: #5222d0;
+        }
+
+        .hero-text p,
+        .our-services p,
+        label {
+            font-size: 1.7rem;
+            letter-spacing: 0.2rem;
+            color: #777676;
+            text-transform: capitalize;
+            margin-top: 1.5rem;
+            margin-bottom: 5rem;
+        }
+
+        .hero-text p span {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .footersection {
+            width: 100%;
+            height: auto;
+            padding: 70px 0 20px 0;
+            background: #474746;
+            /*background: #00abff;*/
+            position: relative;
+        }
+
+        .footersection p {
+            color: #fff;
+        }
+
+        .footersection ul {
+            list-style-type: none;
+        }
+
+        .footersection li a {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            font-weight: 400;
+            color: #fff;
+            text-transform: capitalize;
+
+        }
+
+        .footersection h3 {
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4)
+        }
+
+
+
+        .about-style {
+            margin: 10rem 0;
+        }
+
+        .about-style .main-heading {
+            font-size: 5rem;
+            color: #fd5c63;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        .about-style .sub-heading {
+            font-size: 3rem;
+            letter-spacing: 3px;
+            line-height: 2;
+            color: #333;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class=" navbar-brand" href="#">
+                <img class="" src="images/hi.png" alt="logo" width="30%">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Prototype-master/About/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="career.html">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="business.html">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Navigation Bar -->
+
+    <!-- first section -->
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+                        <h1>LOREM IPSUM DOLOR SIT </h1>
+                        <h1>LOREM IPSUM DOLOR SIT </h1>
+                        <p>Improve agriculture <span class="bold-style">to live better.</span></p>
+
+                    </div>
+
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/growth4.jpg" alt="herosection_image" </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- first section ends-->
+
+    <!-- second section -->
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+
+                    <div class="col-md-6 col-12 hero-text ">
+                        <figure>
+                            <img src="images/business.jpg" alt="herosection_image" </figure>
+                    </div>
+
+                    <div
+                        class="col-md-6 col-12 hero-text  d-flex justify-content-center align-items-center flex-column">
+                        <h1>LOREM IPSUM DOLOR SIT.</h1>
+
+                        <p> Lorem ipsum<span class="bold-style"> Lorem ipsum </span> Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. In dignissim commodo augue, eu imperdiet enim accumsan sit
+                            amet. Nam aliquam suscipit maximus. Nulla facilisi. Nulla sed arcu ex. Nulla nec enim
+                            tortor. Sed vitae pulvinar velit. Nulla nec ante ac mauris placerat sodales. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel
+                            hendrerit mi.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second section ends -->
+
+    <!-- third section -->
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+
+                        <h1>LOREM IPSUM DOLOR SIT</h1>
+
+                        <p>Duis et elit <span class="bold-style"> Duis et elit </span>Duis et elit vitae risus mattis
+                            ornare. Fusce feugiat leo urna, sit amet ullamcorper nibh porta viverra. Donec cursus eget
+                            leo nec bibendum. Praesent faucibus justo ipsum, quis semper velit volutpat eget.
+                            Suspendisse potenti. Sed maximus, eros non maximus sollicitudin, tortor eros tincidunt
+                            mauris, et aliquet neque eros non augue. Cras ac odio sollicitudin, rutrum libero non,
+                            fermentum justo.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/productivity.jpg" alt="herosection_image" </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- third section ends -->
+
+    <!-- fourth section -->
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+
+                    <div class="col-md-6 col-12 hero-text ">
+                        <figure>
+                            <img src="images/vision.jpg" alt="herosection_image" </figure>
+                    </div>
+
+                    <div
+                        class="col-md-6 col-12 hero-text  d-flex justify-content-center align-items-center flex-column">
+                        <h1>LOREM IPSUM DOLOR SIT</h1>
+
+                        <p> Lorem ipsum<span class="bold-style"> Lorem ipsum </span> Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. In dignissim commodo augue, eu imperdiet enim accumsan sit
+                            amet. Nam aliquam suscipit maximus. Nulla facilisi. Nulla sed arcu ex. Nulla nec enim
+                            tortor. Sed vitae pulvinar velit. Nulla nec ante ac mauris placerat sodales. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel
+                            hendrerit mi.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fourth section ends -->
+
+    <!-- fifth section -->
+
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+
+                        <h1>LOREM IPSUM DOLOR SIT</h1>
+
+                        <p>Duis et elit <span class="bold-style"> Duis et elit </span>Duis et elit vitae risus mattis
+                            ornare. Fusce feugiat leo urna, sit amet ullamcorper nibh porta viverra. Donec cursus eget
+                            leo nec bibendum. Praesent faucibus justo ipsum, quis semper velit volutpat eget.
+                            Suspendisse potenti. Sed maximus, eros non maximus sollicitudin, tortor eros tincidunt
+                            mauris, et aliquet neque eros non augue. Cras ac odio sollicitudin, rutrum libero non,
+                            fermentum justo.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/mission.jpg" alt="herosection_image" </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fifth section ends -->
+
+
+    <!-- sixth section -->
+
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+
+                    <div class="col-md-6 col-12 hero-text ">
+                        <figure>
+                            <img src="images/transport.jpg" alt="herosection_image" </figure>
+                    </div>
+
+                    <div
+                        class="col-md-6 col-12 hero-text  d-flex justify-content-center align-items-center flex-column">
+                        <h1>LOREM IPSUM DOLOR SIT</h1>
+
+                        <p> Lorem ipsum<span class="bold-style"> Lorem ipsum </span> Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit. In dignissim commodo augue, eu imperdiet enim accumsan sit
+                            amet. Nam aliquam suscipit maximus. Nulla facilisi. Nulla sed arcu ex. Nulla nec enim
+                            tortor. Sed vitae pulvinar velit. Nulla nec ante ac mauris placerat sodales. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel
+                            hendrerit mi.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sixth section ends -->
+
+    <!-- seventh section -->
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <h1 class="text-center main-heading">Lorem Ipsum</h1>
+                <p class="text-center sub-heading">Lorem ipsum dolor sit.</p>
+                <div class="row">
+                    <div
+                        class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+
+                        <h1>LOREM IPSUM DOLOR SIT</h1>
+
+                        <p>Duis et elit <span class="bold-style"> Duis et elit </span>Duis et elit vitae risus mattis
+                            ornare. Fusce feugiat leo urna, sit amet ullamcorper nibh porta viverra. Donec cursus eget
+                            leo nec bibendum. Praesent faucibus justo ipsum, quis semper velit volutpat eget.
+                            Suspendisse potenti. Sed maximus, eros non maximus sollicitudin, tortor eros tincidunt
+                            mauris, et aliquet neque eros non augue. Cras ac odio sollicitudin, rutrum libero non,
+                            fermentum justo.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                        <figure>
+                            <img src="images/financial.jpg" alt="herosection_image" </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- seventh section ends -->
+
+    <!-- footer -->
+    <footer class="footersection" id="footerfdiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+                    <div>
+                        <h3>ABOUT OUR WEBSITE</h3>
+                        <p>User friendly "AN EASY TO USE GUIDE CONATINING EXCELLENT TIPS"</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 footer-div text-center ">
+                    <ul>
+                        <h3>NAVIGATION LINKS</h3>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="/Prototype-master/About/about.html">About Us</a></li>
+                        <li><a href="career.html">Careers</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-12 footer-div text-center">
+                    <div>
+                        <h3>NEWSLETTER</h3>
+                        <p>Freshie Veg made it to top 10 companies in India</p>
+
+                        <div class="container newsletter-main">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-8 col-12 ">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control news-input" placeholder="Your Email">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text"
+                                                style="background-color: white;">SUBSCRIBE</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-5 text-center">
+                <p>Copyright ©2021 EmerTech Innovations Interns </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer ends -->
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
