@@ -29,6 +29,11 @@ body{
     background: rgb(197, 245, 197);
 }
 
+.container{
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 .img-fluid{
     margin-left: 25px;
     align-items: center;
